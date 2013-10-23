@@ -2,7 +2,7 @@
     "name":"pyazo-contextMenu-expander",
     "version":"0.0.1",
     "manifest_version": 2,
-    "description":"Expand the context menu for pyazo",
+    "description":"Expand the google chrome context menu for pyazo",
     "permissions":[
         "http://yairc.cfe.jp:5000/*",
         "contextMenus"
