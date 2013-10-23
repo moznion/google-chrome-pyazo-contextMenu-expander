@@ -1,7 +1,7 @@
 Pyazo ContextMenu Expander
 ==========================
 
-This is the Google Chrome Extention to expand context menu for [http://yairc.cfe.jp:5000/](Pyazo).
+This is the Google Chrome Extention to expand context menu for [Pyazo](http://yairc.cfe.jp:5000/).
 
 Usage
 -----
