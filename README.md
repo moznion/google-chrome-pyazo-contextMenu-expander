@@ -11,6 +11,11 @@ Usage
 3. Then post image to Pyazo, and open page of the image
 4. Wow! Image URL has been already copied into your clipboard!
 
+DEMO
+----
+
+![https://dl.dropboxusercontent.com/u/14832699/Pyazo_expander.gif](https://dl.dropboxusercontent.com/u/14832699/Pyazo_expander.gif)
+
 License
 -------
 
