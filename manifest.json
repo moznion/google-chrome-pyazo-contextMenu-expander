@@ -4,17 +4,17 @@
     "manifest_version": 2,
     "description":"Expand the context menu for pyazo",
     "permissions":[
-        "http://yairc.cfe.jp:5000/",
+        "http://yairc.cfe.jp:5000/*",
         "contextMenus"
     ],
     "content_scripts": [
         {
-          "matches": ["<all_urls>"],
-          "js": ["vendor/js/jquery-2.0.3.min.js"],
-          "run_at": "document_start"
+            "matches": ["<all_urls>"],
+            "js": [""],
+            "run_at": "document_start"
         }
     ],
     "background": {
-        "scripts": ["js/main.js"]
+        "scripts": ["js/main.js", "vendor/js/jquery-2.0.3.min.js"]
     }
 }
