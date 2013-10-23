@@ -29,8 +29,16 @@ function pyazoPost(imageUrl) {
         return dfd.promise();
     };
 
-    preparePostImage().done(function (response) {
-        alert(response);
+    preparePostImage().done(function (responseUrl) {
+        // url goes to clipboard
+        var copyArea = $("<textarea/>");
+        copyArea.text(responseUrl);
+        $("body").append(copyArea);
+        copyArea.select();
+        document.execCommand("copy");
+        copyArea.remove();
+
+        window.open(responseUrl); // show page
     }).fail(function () {
         alert("ごめん、なんかしくじった");
     });
