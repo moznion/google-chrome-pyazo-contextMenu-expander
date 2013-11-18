@@ -4,7 +4,7 @@
     "manifest_version": 2,
     "description":"Expand the google chrome context menu for pyazo",
     "permissions":[
-        "http://yairc.cfe.jp:5000/*",
+        "http://pyazo.hachiojipm.org/*",
         "contextMenus"
     ],
     "icons": {

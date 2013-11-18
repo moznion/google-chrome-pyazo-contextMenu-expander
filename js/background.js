@@ -32,7 +32,7 @@ Background.prototype = {
     },
 
     onClickPost: function (info) {
-        var pyazoUrl = "http://yairc.cfe.jp:5000/";
+        var pyazoUrl = "http://pyazo.hachiojipm.org/";
         var preparePostImage = function () {
             var dfd = $.Deferred();
             $.ajax({
